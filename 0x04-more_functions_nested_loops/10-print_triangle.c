@@ -8,6 +8,7 @@ void print_triangle(int size)
 {
 	int shape;
 	int line;
+	int space;
 
 	line = 0;
 
@@ -17,7 +18,7 @@ void print_triangle(int size)
 	}
 	while (line < size)
 	{
-		for (int space = size - 1; space > line; space--)
+		for (space = size - 1; space > line; space--)
 		{
 			_putchar(' ');
 		}
