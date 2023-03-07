@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - A function that prints hash symbol to create a shape
- * @: an integer value of the size
+ * @size: an integer value of the size
  */
 void print_triangle(int size)
 {
